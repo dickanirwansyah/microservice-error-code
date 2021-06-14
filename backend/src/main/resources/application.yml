@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: management-error-message
+  datasource:
+    url: jdbc:postgresql://localhost:5432/db_user
+    username: postgres
+    password: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 9991
